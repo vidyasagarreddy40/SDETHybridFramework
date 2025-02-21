@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 public class extentReportGeneration  {
 
     public static ExtentReports extent = new ExtentReports();
-    public static ExtentSparkReporter spark = new ExtentSparkReporter("target/Report.html");
+    public static ExtentSparkReporter spark = new ExtentSparkReporter("./src/test/Reports/Report.html");
     public static ExtentTest test;
 
     private static final ThreadLocal<ExtentTest> extentTest= new ThreadLocal<>();

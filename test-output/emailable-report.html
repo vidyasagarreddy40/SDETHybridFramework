@@ -9,14 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">All Test Suite</th></tr>
-<tr><td><a href="#t0">Edge Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,336</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Chrome Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,713</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">43,049</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">27,689</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Edge Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,779</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">58,468</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Edge Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestSuite.FunctionalCases</td><td><a href="#m0">Weeks52LowAndHighValuesValidationTest</a></td><td rowspan="1">1739331613253</td><td rowspan="1">13373</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Chrome Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestSuite.FunctionalCases</td><td><a href="#m1">Weeks52LowAndHighValuesValidationTest</a></td><td rowspan="1">1739331612568</td><td rowspan="1">13450</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestSuite.FunctionalCases</td><td><a href="#m0">Weeks52LowAndHighValuesValidationTest</a></td><td rowspan="1">1740135470174</td><td rowspan="1">13841</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Edge Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestSuite.FunctionalCases</td><td><a href="#m1">Weeks52LowAndHighValuesValidationTest</a></td><td rowspan="1">1740135475614</td><td rowspan="1">12683</td></tr></tbody>
 </table>
-<h2>Edge Test</h2><h3 id="m0">TestSuite.FunctionalCases#Weeks52LowAndHighValuesValidationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome Test</h2><h3 id="m1">TestSuite.FunctionalCases#Weeks52LowAndHighValuesValidationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Test</h2><h3 id="m0">TestSuite.FunctionalCases#Weeks52LowAndHighValuesValidationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Weeks52LowAndHighValuesValidationTest - Assertion is failed : actual is - 667.05 not as expected : 675.10
+	at TestSuite.FunctionalCases.Weeks52LowAndHighValuesValidationTest(FunctionalCases.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Edge Test</h2><h3 id="m1">TestSuite.FunctionalCases#Weeks52LowAndHighValuesValidationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Weeks52LowAndHighValuesValidationTest - Assertion is failed : actual is - 667.05 not as expected : 675.10
+	at TestSuite.FunctionalCases.Weeks52LowAndHighValuesValidationTest(FunctionalCases.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
