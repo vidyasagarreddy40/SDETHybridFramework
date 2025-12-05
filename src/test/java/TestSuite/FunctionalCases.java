@@ -10,7 +10,6 @@ import java.util.Map;
 
 public class FunctionalCases extends TestBase {
 
-
     HomePage homePage = new HomePage();
     HistoricalDataPage historicalDataPage = new HistoricalDataPage();
 
