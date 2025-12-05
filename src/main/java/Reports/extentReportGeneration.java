@@ -17,7 +17,6 @@ public class extentReportGeneration  {
 
     private static final ThreadLocal<ExtentTest> extentTest= new ThreadLocal<>();
 
-
     public static ExtentReports setReportTheme() {
         spark.config().setTheme(Theme.DARK);
         spark.config().setDocumentTitle("NSE Test Execution Report");
@@ -31,7 +30,7 @@ public class extentReportGeneration  {
         extentTest.set(test);
     }
 
-
+    //*******  logging in report  *******//
     public void reportLogs(String logType, String logMesssage, WebDriver driver) {
         switch (logType) {
             case "info":
